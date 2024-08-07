@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #7b1113; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register-container input[type="text"],
+.register-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+ 
+}
+
+.register-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #7b1113;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.register-container input[type="submit"]:hover {
+    background-color: #7b1113;
+}
+
+.register-container p {
+    margin-top: 15px;
+    text-align: center;
+   
+}
+
+.register-container p a {
+    text-decoration: none;
+    color: #7b1113;
+}
+
+.register-container p a:hover {
+
+    text-decoration: none;
+}
+

@@ -1,0 +1,69 @@
+.login-container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 150px;
+    box-shadow: 0 0 10px #7b1113; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 30px; 
+}
+
+.input-container i {
+    position: absolute;
+    left: 8px; 
+    top: 27%;
+    transform: translateY(-50%);
+}
+
+input[type="submit"] {
+    width: 94%;
+    background-color: #7b1113;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block; 
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7b1113;
+}
+
+.register-account{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-account a {
+    text-decoration: none;
+    color: #7b1113;
+}
